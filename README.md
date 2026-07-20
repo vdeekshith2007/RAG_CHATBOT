@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-=======
+
+
 # RAG_CHATBOT
->>>>>>> c22c21cadc15d4b46faba0c54b6cb579e26592f3
+
 # RAG Chatbot
 
 A document-question-answering chatbot built around a traditional RAG pipeline.
