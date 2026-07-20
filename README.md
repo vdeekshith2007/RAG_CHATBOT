@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# RAG_CHATBOT
+>>>>>>> c22c21cadc15d4b46faba0c54b6cb579e26592f3
 # RAG Chatbot
 
 A document-question-answering chatbot built around a traditional RAG pipeline.
@@ -81,4 +85,8 @@ If you upload a file type that is not listed explicitly, the backend still tries
 2. **Embed** → `SentenceTransformer("all-MiniLM-L6-v2")` → 384-dim vectors
 3. **Store** → ChromaDB `PersistentClient` collection
 4. **Retrieve** → `RAGRetriever.retrieve()` → top-k cosine similarity
+<<<<<<< HEAD
 5. **Generate** → `ChatGroq(llama-3.1-8b-instant)` with context prompt
+=======
+5. **Generate** → `ChatGroq(llama-3.1-8b-instant)` with context prompt
+>>>>>>> c22c21cadc15d4b46faba0c54b6cb579e26592f3
