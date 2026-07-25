@@ -16,6 +16,7 @@ venv/
 .venv/
 env/
 
-# OS files
+# OS files chrom adb or astra db used for storeing the large amount of data in particular data sets.
+
 .DS_Store
 Thumbs.db

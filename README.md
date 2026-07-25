@@ -1,6 +1,7 @@
 
 
-# RAG_CHATBOT - llm,rag, langchin ,langgraph
+# RAG_CHATBOT - llm,rag, langchin ,langgraph, langchain_community, pandas,numpy etc.
+
 
 # RAG Chatbot
 
@@ -86,8 +87,8 @@ load the .env loader().
 2. **Embed** → `SentenceTransformer("all-MiniLM-L6-v2")` → 384-dim vectors
 3. **Store** → ChromaDB `PersistentClient` collection
 4. **Retrieve** → `RAGRetriever.retrieve()` → top-k cosine similarity
-<<<<<<< HEAD
+
 5. **Generate** → `ChatGroq(llama-3.1-8b-instant)` with context prompt
 =======
 5. **Generate** → `ChatGroq(llama-3.1-8b-instant)` with context prompt
->>>>>>> c22c21cadc15d4b46faba0c54b6cb579e26592f3
+
