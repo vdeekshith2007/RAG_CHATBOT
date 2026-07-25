@@ -10,7 +10,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 
-# Add project root to path
+# Add project root to path and load .env variables.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 load_dotenv()
@@ -22,7 +22,7 @@ from rag.pipeline import get_llm, rag_advanced
 from loaders.document_loader import load_document, SUPPORTED_EXTENSIONS
 
 # ─────────────────────────────────────────────────────────────
-# Flask App Configuration
+# Flask App Configuration it is a API BACKEND FOR RAG_CHATBOT
 # ─────────────────────────────────────────────────────────────
 app = Flask(__name__, static_folder="frontend", static_url_path="")
 CORS(app)
@@ -36,7 +36,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024  # 50 MB max
 
 # ─────────────────────────────────────────────────────────────
-# Initialize RAG components (singleton, loaded once at startup)
+# Initialize RAG components (singleton, loaded once at startup) 
 # ─────────────────────────────────────────────────────────────
 print("=" * 60)
 print("Initializing RAG Chatbot...")

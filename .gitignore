@@ -8,10 +8,10 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
+# VS Code ,LINUX,MAC,WINDOWS
 .vscode/
 
-# Virtual Environment
+# Virtual Environment .VENV .venv/actiavte/scripts/activate.
 venv/
 .venv/
 env/

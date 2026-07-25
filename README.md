@@ -69,6 +69,7 @@ python app.py
 Open `http://localhost:5000` in your browser.
 
 If you upload a file type that is not listed explicitly, the backend still tries to parse it through the unstructured fallback loader.
+load the .env loader().
 
 ## API Endpoints
 

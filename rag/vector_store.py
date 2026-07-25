@@ -12,7 +12,7 @@ from typing import List
 
 
 class VectorStore:
-    """Manages document embeddings in a ChromaDB vector store."""
+    """Manages document embeddings in a ChromaDB vector store retrive ."""
 
     def __init__(
         self,
