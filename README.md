@@ -3,7 +3,7 @@
 # RAG_CHATBOT - llm,rag, langchin ,langgraph, langchain_community, pandas,numpy etc.
 
 
-# RAG Chatbot
+# RAG Chatbot apllication agentic ai funstions.
 
 A document-question-answering chatbot built around a traditional RAG pipeline.
 It mirrors the embedding, ChromaDB, retrieval, and Groq generation flow from `RAG_first_project/notebook/document.ipynb`.

@@ -1,7 +1,7 @@
-# Environment variables
+# set up Environment variables 
 .env
 
-# Python cache
+# Python cache updated
 __pycache__/
 *.pyc
 

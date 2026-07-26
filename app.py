@@ -36,7 +36,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024  # 50 MB max
 
 # ─────────────────────────────────────────────────────────────
-# Initialize RAG components (singleton, loaded once at startup) 
+# Initialize RAG components (singleton, loaded once at startup)  markup the loading the data. 
 # ─────────────────────────────────────────────────────────────
 print("=" * 60)
 print("Initializing RAG Chatbot...")
