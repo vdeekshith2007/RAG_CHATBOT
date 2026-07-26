@@ -1,6 +1,7 @@
 /**
  * RAG Chatbot — Frontend Logic
  * Handles: file upload, query submission, chat rendering, UI state
+ * function like info if every pdf has certain require queries.
  */
 
 // ─── State ───────────────────────────────────────────────────
