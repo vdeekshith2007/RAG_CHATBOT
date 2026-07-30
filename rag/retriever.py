@@ -3,6 +3,14 @@ RAGRetriever — exact port from RAG_first_project/notebook/document.ipynb
 Handles query-based retrieval from the ChromaDB vector store.
 """
 
+
+
+"""
+RAGRetriever — exact port from RAG_first_project/notebook/document.ipynb
+Handles query-based retrieval from the ChromaDB vector store.
+"""
+
+
 from typing import List, Dict, Any
 from rag.embeddings import EmbeddingManager
 from rag.vector_store import VectorStore
