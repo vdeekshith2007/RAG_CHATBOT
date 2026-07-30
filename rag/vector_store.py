@@ -3,6 +3,13 @@ VectorStore — exact port from RAG_first_project/notebook/document.ipynb
 Uses ChromaDB PersistentClient to store and retrieve document embeddings.
 """
 
+
+
+"""
+VectorStore — exact port from RAG_first_project/notebook/document.ipynb
+Uses ChromaDB PersistentClient to store and retrieve document embeddings.
+"""
+
 import os
 import uuid
 import numpy as np
