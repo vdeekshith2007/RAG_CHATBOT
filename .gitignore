@@ -1,4 +1,6 @@
 # set up Environment variables 
+
+# seting the  python environments with file called .gitnore,python-veersion ,readme,requirements.txt,app.py
 .env
 
 # Python cache updated
