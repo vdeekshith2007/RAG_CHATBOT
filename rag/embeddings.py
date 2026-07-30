@@ -3,9 +3,16 @@ EmbeddingManager — exact port from RAG_first_project/notebook/document.ipynb
 Uses SentenceTransformer("all-MiniLM-L6-v2") to generate 384-dim embeddings.
 """
 
-import numpy as np
-from sentence_transformers import SentenceTransformer
-from typing import List
+
+
+
+
+
+"""
+EmbeddingManager — exact port from RAG_first_project/notebook/document.ipynb
+Uses SentenceTransformer("all-MiniLM-L6-v2") to generate 384-dim embeddings.
+"""
+
 
 
 class EmbeddingManager:
