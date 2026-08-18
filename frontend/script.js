@@ -266,7 +266,7 @@ queryInput.addEventListener("input", () => {
   queryInput.style.height = Math.min(queryInput.scrollHeight, 160) + "px";
 });
 
-// Send on Enter (not Shift+Enter)
+// Send on Enter  not shift (not Shift+Enter)
 queryInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter" && !e.shiftKey) {
     e.preventDefault();
