@@ -158,7 +158,7 @@ async function handleFileUpload(file) {
   progressLabel.textContent = `Processing "${file.name}"...`;
   setStatus("loading", "Uploading & embedding...");
 
-  // Animate progress
+  // Animate progress  update
   let fakeProgress = 0;
   const fakeTimer = setInterval(() => {
     fakeProgress = Math.min(fakeProgress + Math.random() * 8, 85);
