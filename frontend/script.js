@@ -237,7 +237,7 @@ function addDocToSidebar(filename, chunks, ext) {
   docList.appendChild(item);
 }
 
-// ─── Reset ───────────────────────────────────────────────────
+// ─── Reset    the schedule───────────────────────────────────────────────────
 resetBtn.addEventListener("click", async () => {
   if (!confirm("Clear all loaded documents? This cannot be undone.")) return;
 
