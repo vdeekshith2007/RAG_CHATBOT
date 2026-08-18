@@ -259,7 +259,7 @@ resetBtn.addEventListener("click", async () => {
   }
 });
 
-// ─── Query Input ─────────────────────────────────────────────
+// ─── Query  taken  Input ─────────────────────────────────────────────
 // Auto-resize textarea
 queryInput.addEventListener("input", () => {
   queryInput.style.height = "auto";
