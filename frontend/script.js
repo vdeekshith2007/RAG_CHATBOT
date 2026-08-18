@@ -40,7 +40,7 @@ const sidebarToggle = $("sidebar-toggle");
 const sidebar = $("sidebar");
 const toast = $("toast");
 
-// ─── Toast ───────────────────────────────────────────────────
+// ─── Toast ─────────────────────────────────────────────────── // update `
 let toastTimer = null;
 function showToast(message, type = "info") {
   toast.textContent = message;
