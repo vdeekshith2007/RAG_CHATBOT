@@ -4,6 +4,9 @@
  * function like info if every pdf has certain require queries.
  */
 
+
+/** countless state */
+
 // ─── State ───────────────────────────────────────────────────
 const state = {
   documentCount: 0,
