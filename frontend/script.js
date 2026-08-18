@@ -181,7 +181,7 @@ async function handleFileUpload(file) {
       progressBar.style.width = "100%";
       progressLabel.textContent = `✓ Loaded ${data.chunks_loaded} chunk(s)`;
 
-      // Add to doc list
+      // Add to doc list  is updated
       addDocToSidebar(file.name, data.chunks_loaded, ext.replace(".", "") || "file");
       updateDocCountBadge(data.total_documents);
       setStatus("ready", `Ready · ${data.total_documents} chunks`);
