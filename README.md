@@ -1,6 +1,6 @@
 
 
-# RAG_CHATBOT - llm,rag, langchin ,langgraph, langchain_community, pandas,numpy etc.
+# RAG_CHATBOT - llm,rag, langchin ,langgraph, langchain_community, pandas,numpy  etc.
 
 
 # RAG Chatbot apllication agentic ai functions.
@@ -30,7 +30,7 @@ RAG_Chatbot/
 │   ├── embeddings.py       # EmbeddingManager
 │   ├── vector_store.py     # VectorStore (ChromaDB)
 │   ├── retriever.py        # RAGRetriever
-│   └── pipeline.py         # rag_advanced() + Groq LLM
+│   └── pipeline.py         # rag_advanced() + Groq LLM  
 ├── loaders/
 │   └── document_loader.py  # Multi-format loader
 ├── data/
@@ -47,7 +47,7 @@ RAG_Chatbot/
 ### 1. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt   
 ```
 
 ### 2. Set Groq API Key
