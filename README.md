@@ -1,6 +1,6 @@
 
 
-# RAG_CHATBOT - llm,rag, langchin ,langgraph, langchain_community, pandas,numpy  etc.
+# RAG_CHATBOT - llm,rag,raggs langchin ,langgraph, langchain_community, pandas,numpy  etc.
 
 
 # RAG Chatbot apllication agentic ai functions.
