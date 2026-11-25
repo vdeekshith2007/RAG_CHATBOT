@@ -19,6 +19,11 @@ It mirrors the embedding, ChromaDB, retrieval, and Groq generation flow from `RA
 - **Simple Web UI** for upload, chat, and source inspection
 - **Flask REST API** with 4 endpoints
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f23eca6 (update requirements.txt)
 ## Project Structure
 
 ```
