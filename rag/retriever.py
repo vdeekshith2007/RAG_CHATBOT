@@ -17,7 +17,7 @@ from rag.vector_store import VectorStore
 
 
 class RAGRetriever:
-    """Handles query-based retrieval from the vector store."""
+    """Handles query-based retrieval from the vector store."""   
 
     def __init__(self, vector_store: VectorStore, embedding_manager: EmbeddingManager):
         """
