@@ -10,7 +10,7 @@ Uses Groq LLM (llama-3.1-8b-instant) to generate answers from retrieved context.
 RAG Pipeline — rag_advanced() ported from RAG_first_project/notebook/document.ipynb
 Uses Groq LLM (llama-3.1-8b-instant) to generate answers from retrieved context.
 """
-
+  
 
 import os
 from dotenv import load_dotenv
